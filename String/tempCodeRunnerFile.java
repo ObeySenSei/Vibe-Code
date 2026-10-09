@@ -1,0 +1,1 @@
+static int checkOccurence (String str, char ch){
