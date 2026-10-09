@@ -1,4 +1,3 @@
-package String;
 
 public class CountDigitLetters {
     public static void main(String[] args) {

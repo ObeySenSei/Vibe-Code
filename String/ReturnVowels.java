@@ -1,4 +1,3 @@
-package String;
 
 public class ReturnVowels {
     public static void main(String[] args) {
