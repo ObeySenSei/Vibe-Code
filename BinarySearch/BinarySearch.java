@@ -1,4 +1,4 @@
-//Binary search best for Sorted array
+//Binary search best for Sorted array - Code and logic for ascending order !
 public class BinarySearch {
     public static void main(String[] args) {
         
