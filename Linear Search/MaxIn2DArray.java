@@ -26,3 +26,5 @@ public class MaxIn2DArray {
     }
     
 }
+
+// We can also use int max = arr[0][0];  Integer.MIN_VALUE is the smallest possible Java int.  -2147483648
