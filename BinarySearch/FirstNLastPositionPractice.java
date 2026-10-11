@@ -9,21 +9,16 @@ public class FirstNLastPositionPractice {
         System.out.println("First occurence of " + target + " is : " + result [0]);
         System.out.println("Last occurence of " + target + " is : " + result [1]);
 
-        
     }
-
 
 static int[]  searchRange (int[] arr , int target){
 
-    int[] position = {-1,-1};   // Lets assume the target does not exist;
+    int[] ans = {-1,-1};   // Lets assume the target does not exist;
 
-    int start = searchIndex (arr,target,true);
-    int end = searchIndex (arr,target,false);
+    ans [0] = searchIndex (arr,target,true);
+    ans [1] = searchIndex (arr,target,false);
 
-    position[0] = start;
-    position[1] = end;
-
-    return position;
+    return ans;
 }
 
 static int searchIndex (int [] arr , int target , boolean findStartIndex){
