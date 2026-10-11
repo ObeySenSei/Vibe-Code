@@ -206,7 +206,6 @@ public class TypeCastin {
         short s = 1024;
         int i = 50000;
         float f = 5.67f;
-        d = 0.1234;
 
         // Java automatically promotes smaller data types
         // when they are used in arithmetic expressions.

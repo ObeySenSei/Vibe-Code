@@ -3,7 +3,6 @@ public class Sum {
     public static void main(String[] args) {
 
         sum();                 // Function call
-
         int ans = sum2();      // Function call
         System.out.println("Returned sum is: " + ans);
     }
