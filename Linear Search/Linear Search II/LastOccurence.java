@@ -2,6 +2,7 @@
 Q2. Find the first occurrence
 Given {4, 2, 7, 2, 9, 2}, find the index of the first occurrence of 2.
  */
+package String;
 public class LastOccurence {
     public static void main(String[] args) {
         
