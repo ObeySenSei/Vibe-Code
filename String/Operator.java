@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Operator {
     public static void main(String[] args) {
 
@@ -9,6 +11,9 @@ public class Operator {
 
         System.out.println("a" + 3);
         // When an integer is concatenated with a string, it is converted to its wrapper class integer
-        //
+
+        System.out.println("Debanga" + new ArrayList<>());
+        System.out.println("Debanga" + new Integer (56));
+
     }
 }
