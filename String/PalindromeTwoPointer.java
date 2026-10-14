@@ -29,8 +29,8 @@ public class PalindromeTwoPointer {
         }
         return true;
     }
-
 }
+
 /* 
 
 for (int i = 0; i < str.length() / 2; i++) {
@@ -39,7 +39,6 @@ for (int i = 0; i < str.length() / 2; i++) {
         return false;
     }
 }
-
 return true;
 
 

@@ -17,6 +17,12 @@ public class Performance {
             builder.append(ch);
         }
         System.out.println("StringBuilder: " + builder);
+
+        builder.deleteCharAt(0);
+        System.out.println(builder);
+
+        builder.reverse();
+        System.out.println(builder);
     }
 }
 /*
