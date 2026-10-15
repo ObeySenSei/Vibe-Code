@@ -22,9 +22,9 @@ public class ReverseHelperFunction {
 
             int rem = n % 10;
             return rem * (int) Math.pow(10, digits - 1) + helper(n / 10, digits - 1);
+            // the first call is effectively calculating: 4 x 1000 = 4000  +  helper(123,3)
         }
     }
-
 
 /*
 Instead of building the reversed number from left to right,
