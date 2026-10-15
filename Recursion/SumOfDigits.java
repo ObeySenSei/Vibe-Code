@@ -11,7 +11,7 @@ public class SumOfDigits {
         if (n == 0) {
             return 0;
         }
-        return (n % 10) + findSum (n /10);        // return (n % 10) * findSum (n /10) if u wanna find the product
+        return (n % 10) + findSum (n /10);
     }
 }
 /*
