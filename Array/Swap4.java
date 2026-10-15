@@ -1,7 +1,7 @@
-package Array;
+
 
 import java.util.Arrays;
-public class Swap {
+public class Swap4 {
 
     public static void main(String[] args) {
 
