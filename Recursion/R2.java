@@ -7,7 +7,7 @@ public class R2 {
         }
 
         static void message(int n) {
-            if (n > 5) {
+            if (n > 5) {                                            // or   n == 5
                 return;
             }
 
@@ -21,4 +21,5 @@ public class R2 {
    Recursion needs two things:
  - Base case: A condition that stops the recursive calls.
  - Recursive call: The method calling itself to repeat the operation.
+
  */
