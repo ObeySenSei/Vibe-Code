@@ -25,7 +25,7 @@ Call	  n	     sum before	     remainder	 sum after
 2	     123	       4	         3	        43
 3	      12	      43	         2	       432
 4	       1	     432	         1	      4321
-5	       0	    4321	         —	      Returns 4321
+5	       0	    4321	         —	   Returns 4321
 
 Why is this better?
  No static variable: every call has its own accumulated value.
