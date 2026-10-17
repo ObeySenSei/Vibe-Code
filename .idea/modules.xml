@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.iml" filepath="$PROJECT_DIR$/.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Bitwise Operator/Bitwise Operator.iml" filepath="$PROJECT_DIR$/Bitwise Operator/Bitwise Operator.iml" />
     </modules>
   </component>
 </project>
